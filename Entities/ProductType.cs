@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Store.Data
+namespace Store.Data.Entities
 {
-    internal class Dev
+    public class ProductType:BaseEntity<int>
     {
+        public string Name { get; set; }
     }
 }
